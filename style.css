@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+body h1 {
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.pw-container {
+    background-color:a;
+    min-width: 70%;
+    margin-bottom: 10rem;
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: orange;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: rgb(241, 83, 83);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top:0;
+    right: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+    font-size: 1.7rem;
+}
+
+.generate {
+    background-color: #1f0a94;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.information1 {
+
+    color: white;
+    max-width: 18rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-right: 3em;
+    border: 1px orange solid;
+    border-radius: 2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.long {
+    font-size: 2em;
+    margin-bottom: 7px;
+}
+
+.longer {
+    font-size: 1.3em;
+}
